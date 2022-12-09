@@ -1548,6 +1548,7 @@ input, select, textarea {
 		header > p {
 			margin: 0.5em 0 0 0;
 			color: #aaa;
+			
 		}
 
 		@media screen and (max-width: 736px) {
@@ -2144,7 +2145,7 @@ padding-bottom: 1em;
 
 		#footer .copyright {
 			list-style: none;
-			padding-left: 0;
+			margin-right: 2em;
 		}
 
 			#footer .copyright li {
