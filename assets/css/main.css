@@ -45,9 +45,14 @@ a:visited{
 	color: black;
 }
 
-h1,h2,h3,h4,h5,h6 {
+h1 {
 	font-family: 'Kallem', sans-serif;
 	letter-spacing: 2px;
+}
+
+h2,h3,h4,h5,h6 {
+	font-family: 'Source Sans Pro', sans-serif;
+	letter-spacing: 1px;
 }
 
 
