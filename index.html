@@ -3,11 +3,11 @@
 	mallorybae.com | hello@mallorybae.com
 	@MIT Licensed 2022 
 -->
-<html>
+<html lang="en">
 	<head>
 		<title>Home | MB</title>
 		<meta charset="utf-8" />
-		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
 		<link rel="stylesheet" href="assets/css/main.css" />
 		<link rel="stylesheet" href="assets/css/stylesheet.css" />
 <!--<script data-name="BMC-Widget" data-cfasync="false" src="https://cdnjs.buymeacoffee.com/1.0.0/widget.prod.min.js"
@@ -50,14 +50,14 @@
 						<article id="about" class="panel">
 							<header><h2>About Me</h2>
 							</header>
-							<p>
-								Our ever-changing world of technology has always fascinated me and I've never been afraid to dive head first into a new project.
+							<p class="main-text">
 								As a developer, my superpower happens behind the scenes to make a website look great, work fast, and perform well for a seamless user experience.
-
-								
-								</p>
-							<p>
-								Interested in creating something special? Let's build it <a href="#contact">together</a>.
+								<br/>Our ever-changing world of technology has always fascinated me and I've never been afraid to dive head first into a new project.
+								<br/>Interested in creating something special? Let's build it <a href="#contact">together</a>.
+							
+							
+							
+							
 							</p>
 						</article>
 						<!-- Work -->
@@ -96,19 +96,29 @@
 						<!-- Contact -->
 							<article id="contact" class="panel">
 								<header>
-									<h2>Ready to build something together? </h2>
-									<p>Let's Connect!</p>
+									<h2>Let's Connect! </h2>
+								
 								</header>
-								<div formsappId="6390c8b374e3801d7f78d1c4"></div>
-								<script src="https://my.forms.app/static/iframe.js" type="text/javascript"></script>
-								<script>
-									new formsapp('6390c8b374e3801d7f78d1c4', {
-										width: '100%',
-										height: 'formHeight'
-									});
-								</script>
+								  <form action="https://formsubmit.co/m.shackford@yahoo.com" method="POST">
+									<input type="hidden" name="_subject" value="New Email from Site">
+    								<input type="email" name="email" placeholder="Email Address"required>
+    								<input type="text" name="name" placeholder="Name"required>
+    								<input type="text" name="message" placeholder="Message"required>
+    								<input type="hidden" name="_next" value="https://mallorybae.com/index.html#thanks">
+    								<button type="submit">Send</button>
+								
 							
 							</article>
+
+							<article id="thanks" class="panel">
+								<header>
+									Thanks for getting in touch!<br/>
+									
+								
+								</header>
+							 </article>
+
+
 							<!--Socials -->
 							<article id="socials" class="panel">
 								<header>
@@ -147,3 +157,4 @@
 
 	</body>
 </html>
+
