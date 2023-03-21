@@ -1396,6 +1396,7 @@ input, select, textarea {
 	h2 {
 		font-size: 1.8em;
 		letter-spacing: 2px;
+		padding: 10px 0;
 	}
 
 	h3, h4, h5, h6 {
